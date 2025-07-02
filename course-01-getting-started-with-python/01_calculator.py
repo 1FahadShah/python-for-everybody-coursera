@@ -15,7 +15,6 @@ def operation(a,b,op):
     else:
         print("Unknown Operation")
     
-
 a = float(input("Enter First Number: "))
 op = input("Enter operation to perform (+, -, *, /): ")
 b = float(input("Enter Second Number: "))
