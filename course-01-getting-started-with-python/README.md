@@ -1,4 +1,4 @@
-# 🚀 Course 01 – Getting Started with Python
+# 🚀 Course 01 – Programming for Everybody(Getting Started with Python)
 
 This folder contains all my work, notes, and code from **Course 1** of the *Python for Everybody* specialization on Coursera, taught by [Dr. Charles Severance (Dr. Chuck)](https://www.py4e.com/).
 
