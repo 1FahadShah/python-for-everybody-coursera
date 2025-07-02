@@ -28,8 +28,8 @@ course-01-getting-started-with-python/
 ├── 03_ATM_mimic.py
 ├── 04_loan_emi_calculator.py
 ├── 05_bmi_classifier.py
-├── course-01-self-study-notes.pdf
-├── course-01-certificate.pdf
+├── course-01-self-study-notes.pdf <- Handwritten Notes
+├── course-01-certificate.pdf <- Coursera Certificate for completing Course 1 of Python for Everybody
 └── README.md
 ```
 ---
