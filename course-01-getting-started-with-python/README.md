@@ -21,9 +21,17 @@ This course covers the very basics of Python programming and lays the groundwork
 ---
 
 ## 📁 Folder Contents
-
-
-
+```bash
+course-01-getting-started-with-python/
+├── 01_calculator.py
+├── 02_grade_checker.py
+├── 03_ATM_mimic.py
+├── 04_loan_emi_calculator.py
+├── 05_bmi_classifier.py
+├── course-01-self-study-notes.pdf
+├── course-01-certificate.pdf
+└── README.md
+```
 ---
 
 ## 🧰 Tools Used
@@ -44,13 +52,14 @@ This course covers the very basics of Python programming and lays the groundwork
 - All code is written from scratch without copy-pasting — to build true problem-solving skills.
 - I’ll be using the Self Study Notes to revisit and reinforce core concepts throughout my journey.
 
----
 
-> 📌 This is part of my larger roadmap to master Python for AI, automation, and backend development. 
-*This is not just about learning Python — it’s about building tools, solving problems, and launching ideas that scale. One line of code at a time.* — **1FahadShah**
+---
 
 ## 🌐 Connect with Me 
 - [GitHub](https://github.com/1fahadshah)  
 - [X / Twitter](https://twitter.com/1fahadshah)  
 - [LinkedIn](https://linkedin.com/in/1fahadshah)  
 - [Medium](https://medium.com/@1fahadshah)
+
+> 📌 This is part of my larger roadmap to master Python for AI, automation, and backend development. 
+*This is not just about learning Python — it’s about building tools, solving problems, and launching ideas that scale. One line of code at a time.* — **1FahadShah**
