@@ -57,7 +57,7 @@ course-02-python-data-structures/
 ├── course-02-self-study-notes.pdf   <- Handwritten Notes
 ├── course-02-certificate.pdf        <- Coursera Certificate
 └── README.md
-
+```
 ---
 
 ## 🧰 Tools Used
