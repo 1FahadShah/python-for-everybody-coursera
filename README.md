@@ -2,7 +2,7 @@
 
 > 🧠 Mastering Python through execution — not just completion.
 
-This repository documents my end-to-end journey through the [Python for Everybody Specialization](https://www.py4e.com/) by **Dr. Charles Severance (Dr. Chuck)** on Coursera — tracked **publicly**, executed **deeply**, and branded under **1FahadShah**.
+This repository documents my end-to-end journey through the [Python for Everybody Specialization](https://www.py4e.com/) by **Dr. Charles Severance (Dr. Chuck)** on Coursera — tracked **publicly**, executed **deeply** under **1FahadShah**.
 
 Unlike most course repos, this isn't just about watching videos or passing quizzes. Every `.py` file here reflects real-world logic, data parsing, and systems thinking — designed to lay the foundation for **DevOps, AI, and backend automation** work.
 
