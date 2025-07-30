@@ -6,9 +6,9 @@ DB_PATH = os.path.join("db","krawlix.sqlite")
 def create_table():
     # Creates knowledge table if it doesn't exists
 
-    connect = sqlite.connect(DB_PATH)
+    connect = sqlite3.connect(DB_PATH)
     cur = connect.cursor()
-    cur.exceute('''
+    cur.execute('''
         CREATE TABLE IF NOT EXISTS knowledge(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             topic TEXT,

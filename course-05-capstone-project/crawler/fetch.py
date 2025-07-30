@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.parse
-import jsdon
+import json
 
 def fetch_summary(topic):
     # Fetch summary for the given topic using DuckDuckGo API
@@ -22,7 +22,7 @@ def fetch_summary(topic):
             json_data = json.loads(data)
 
             summary = json_data.get("Abstract", "").strip()
-            url = json_data.get("AbtractURL", "").strip()
+            url = json_data.get("AbstractURL", "").strip()
 
             if summary:
                 return {
@@ -35,11 +35,9 @@ def fetch_summary(topic):
     except Exception as e:
         print('DuckDuckGo fetch Failed', e)
 
-    return None
-
-
 
     #If DuckDuckGo gave us nothing, we will try Wikipedia
+
     try:
         wiki_base_url = "https://en.wikipedia.org/api/rest_v1/page/summary/"
         query_string = urllib.parse.encode(topic)
@@ -56,7 +54,7 @@ def fetch_summary(topic):
                 return {
                 "topic": topic,
                 "summary": summary,
-                "source": Wikipedia,
+                "source": "Wikipedia",
                 "source_url":url
             }
 
