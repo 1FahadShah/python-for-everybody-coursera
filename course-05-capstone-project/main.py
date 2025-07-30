@@ -2,6 +2,7 @@ import sys
 import os
 from crawler.fetch import fetch_summary
 from crawler.db_writer import create_table, insert_summary
+from crawler.utils import get_timestamp
 from datetime import datetime
 
 def crawl_topics(topics_file_path):
@@ -30,7 +31,7 @@ def crawl_topics(topics_file_path):
         result = fetch_summary(topic)
 
         if result:
-            result["created_at"] = datetime.now().strftime("%d-%m-%Y %H-%M-%S")
+            result["created_at"] = get_timestamp()
             insert_summary(result)
             print(f"Summary for {topic} saved in DB")
         else:
