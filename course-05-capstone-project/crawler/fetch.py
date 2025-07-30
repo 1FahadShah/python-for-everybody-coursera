@@ -40,7 +40,7 @@ def fetch_summary(topic):
 
     try:
         wiki_base_url = "https://en.wikipedia.org/api/rest_v1/page/summary/"
-        query_string = urllib.parse.encode(topic)
+        query_string = urllib.parse.quote(topic)
         wiki_url = wiki_base_url + query_string
 
         with urllib.request.urlopen(wiki_url) as response:
@@ -52,11 +52,11 @@ def fetch_summary(topic):
 
             if summary:
                 return {
-                "topic": topic,
-                "summary": summary,
-                "source": "Wikipedia",
-                "source_url":url
-            }
+                    "topic": topic,
+                    "summary": summary,
+                    "source": "Wikipedia",
+                    "source_url":url
+                }
 
 
     except Exception as e:
