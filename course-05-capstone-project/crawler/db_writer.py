@@ -50,7 +50,7 @@ def save_summary_to_file(summary_data, folder="summaries"):
     if not os.path.exists(folder):
         os.makedirs(folder)
 
-    filename = summary_data["topic"].replace(" ", "-") + ".txt"
+    filename = summary_data["topic"].replace(" ", "_") + ".txt"
     filepath = os.path.join(folder, filename)
 
     with open(filepath, "w", encoding="utf-8") as f:
