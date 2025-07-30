@@ -43,3 +43,15 @@ def insert_summary(summary_data):
 
     connect.commit()
     connect.close()
+
+def save_summary_to_file(summary_data, folder="summaries"):
+    # save summary to text file inside summaries/folder
+
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    filename = summary_data["topic"].replace(" ", "-") + ".txt"
+    filepath = os.path.join(folder, filename)
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(summary_data["summary"])
