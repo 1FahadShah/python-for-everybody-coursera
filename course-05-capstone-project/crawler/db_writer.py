@@ -21,3 +21,25 @@ def create_table():
 
     connect.commit()
     connect.close()
+
+
+def insert_summary(summary_data):
+    # Insert summary into knowledge table
+
+    connect = sqlite3.connect(DB_PATH)
+    cur = connect.cursor()
+
+    cur.execute('''
+        INSERT INTO knowledge (topic, summary, source, source_url, created_at)
+        VALUES (?, ?, ?, ?, ?)
+    ''',
+    (
+        summary_data['topic'],
+        summary_data['summary'],
+        summary_data['source'],
+        summary_data['source_url'],
+        summary_data['created_at']
+    ))
+
+    connect.commit()
+    connect.close()
