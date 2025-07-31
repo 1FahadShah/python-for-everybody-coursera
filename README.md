@@ -27,7 +27,7 @@ Unlike standard copy-paste assignment repos, this execution:
 | 02  | Python Data Structures                                    | ✅ Completed |
 | 03  | Using Python to Access Web Data                           | ✅ Completed |
 | 04  | Using Databases with Python                               | ✅ Completed |
-| 05  | Capstone: Retrieving, Processing, Visualizing Data        | 🔄 In Progress |
+| 05  | Capstone: Retrieving, Processing, Visualizing Data        | ✅ Completed |
 
 ---
 
@@ -124,6 +124,22 @@ Data:
 
 Resources:
 - `README.md` – Complete summary with concepts, tools, and script breakdown
+
+---
+
+### 🔹 Course 5: Capstone Project
+
+🧾 Focus: Bringing together everything — API calls, data parsing, and structured storage  
+📁 Folder: `course-05-capstone-project/`
+
+🚀 Final Project: [**KRAWLIX — Knowledge Crawler**](https://github.com/1FahadShah/krawlix)  
+A CLI tool that fetches topic summaries from **DuckDuckGo** and **Wikipedia**, then stores them in both a `.txt` file and a `SQLite` database — using only **Python Standard Library**.
+
+✅ Real-world project with CLI interface, public API usage, clean modular architecture, zero external dependencies.  
+✅ Fully documented, tested, and deployed as a portfolio-ready tool.
+
+Resources:
+- `README.md` – Full project showcase with demo, architecture, folder structure
 
 ---
 
